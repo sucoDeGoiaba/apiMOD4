@@ -1,13 +1,13 @@
 class Estoque {
-    constructor(nome, tipo, quantidade, preco){
-        this.nome = this._validandoStrings(nome)
+    constructor(nomeProd, tipo, quantidade, preco){
+        this.nomeProd = this._validandoStrings(nomeProd)
         this.tipo = this._validandoStrings(tipo)
-        this.quantidade = this;this._validandoQuantidade(quantidade)
+        this.quantidade = this._validandoQuantidade(quantidade)
         this.preco = this._validandoPreco(preco)
     }
 
     _validandoStrings(input){
-        if(input.lenght > 0){
+        if(input.length > 0){
             return input
         } else {
             throw new Error("Informação inválida.")
@@ -31,3 +31,4 @@ class Estoque {
     }
 }
 
+export default Estoque
