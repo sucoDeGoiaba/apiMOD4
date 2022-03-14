@@ -1,8 +1,8 @@
 import Estoque from "../model/modelEstoque.js"
 
-const controllerUsuario = (app) =>{
+const controllerUsuario = (app, db) =>{
     // Pega toda a info da Tabela
-    app.get('/', (req, rep) =>{
+    app.get('/produtos', (req, rep) =>{
        
     })
 
