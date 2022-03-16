@@ -1,4 +1,5 @@
-class Estoque {
+// Model de validação de dados que serão inseridos.
+class EstoqueSchema {
     constructor(nomeProd, tipo, quantidade, preco){
         this.nomeProd = this._validandoStrings(nomeProd)
         this.tipo = this._validandoStrings(tipo)
@@ -31,4 +32,4 @@ class Estoque {
     }
 }
 
-export default Estoque
+export default EstoqueSchema

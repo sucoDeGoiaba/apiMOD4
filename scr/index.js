@@ -1,10 +1,9 @@
 import express from 'express'
 import controllerEstoque from './controller/controllerEstoque.js'
-import {openDb} from './database/database.js'
+import db from './database/sqliteEstoque.js'
 
 
 const app = express()
-const db = openDb()
 
 app.use(express.json())
 
