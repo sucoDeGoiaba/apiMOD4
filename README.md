@@ -92,6 +92,16 @@ npm start
     ```
 
  * **POST /addProd**
+
+   Schema da requisição
+    ```
+    {
+        "nomeProd" : <String>,
+        "tipo: <String>,
+        "quantidade" : <Integer>,
+        "preco" : <Float>
+    }
+    ```
  
     Schema da resposta
     ```
@@ -103,6 +113,16 @@ npm start
 
 
  * **PUT /produtos/id/{id}**
+ 
+    Schema da requisição
+    ```
+    {
+        "nomeProd" : <String>,
+        "tipo: <String>,
+        "quantidade" : <Integer>,
+        "preco" : <Float>
+    }
+    ```
  
     Schema da resposta
     ```
