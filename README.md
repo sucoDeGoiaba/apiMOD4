@@ -21,6 +21,7 @@ Esse projeto tem como objetivo criar uma API RESTful, que consumiria através de
 Abra o terminal/Powershell e rode os comandos abaixo:
 
 Clonando o repositório:
+
 Via HTTPS:
 ```
 git clone https://github.com/sucoDeGoiaba/apiMOD4.git
@@ -113,7 +114,7 @@ npm start
 
 
  * **PUT /produtos/id/{id}**
- 
+
     Schema da requisição
     ```
     {
