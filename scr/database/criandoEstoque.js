@@ -1,6 +1,5 @@
 import db from "./sqliteEstoque.js";
 
-// criando Tabela Estoque
 const ESTOQUE_SCHEMA = `
     CREATE TABLE IF NOT EXISTS "estoque" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,

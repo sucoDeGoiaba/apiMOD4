@@ -1,4 +1,3 @@
-// Model de validação de dados que serão inseridos.
 class EstoqueSchema {
     constructor(nomeProd, tipo, quantidade, preco){
         this.nomeProd = this._validandoStrings(nomeProd)
