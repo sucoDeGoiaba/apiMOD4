@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "criaTabelas" : "node ./scr/database/criandoEstoque.js",
+    "criaTabelas": "node ./scr/database/criandoEstoque.js",
     "start": "node ./scr/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "homepage": "https://github.com/sucoDeGoiaba/apiMOD4#readme",
   "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "sqlite": "^4.0.25",
     "sqlite3": "^5.0.2"
