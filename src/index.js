@@ -10,5 +10,5 @@ app.use(express.json())
 
 controllerEstoque(app, db)
 
-app.listen(3000)
+app.listen(3000 || process.env.PORT)
 
